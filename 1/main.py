@@ -42,26 +42,3 @@ def trebuchet():
         return sum
 
 print(trebuchet())
-
-
-
-
-
-
-# def last_num(line):
-#     num_list = []
-#     for i in range(len(line)):
-#         temp_string = ''
-#         cur_char = line[i]
-#         print(cur_char)
-#         if cur_char.isdigit():
-#             num_list.append(cur_char)
-#             continue
-
-#         for char in line[i:]:
-#             temp_string += char
-#             if temp_string in nums:
-#                 num_list.append(num_dic[temp_string])
-#                 break
-
-#     return num_list
